@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    hello kse ho saare hello brother satvik gandu
+
+    <script src="index.js">
+      //   we add script tag in body also
+      
+    </script>
+  </body>
+</html>
