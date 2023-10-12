@@ -1,0 +1,30 @@
+class Pattern {
+
+public static void main(String...a1a) {
+for (int i=1;i<=4;i++) {
+for(int j=1;j<=i;j++)
+System.out.print("*");
+System.out.println();
+}
+for (int i=4;i>=1;i--) {
+for(int j=i;j>=1;j--)
+System.out.print("*");
+System.out.println();
+}
+System.out.println("\n\n\n");
+
+for (int i=1;i<=4;i++) {
+int k=1;
+for(int j=4;j>=i;j--,k++) {
+if(k>=4){
+System.out.print("*");
+}
+else if(k<4)
+System.out.print(" ");
+}
+k++;
+System.out.println();
+}
+
+}
+}
