@@ -1,0 +1,28 @@
+class Motor 
+{
+int a=30;
+void show()
+{System.out.println("motor show");}
+public static void main(String...a1)
+{
+Motor m=new Motor();
+}
+}
+
+class Fan extends Motor
+{
+static int a=10;
+}
+
+class Cooler extends Fan
+{
+static int a=20;
+
+void show()
+{System.out.println(((subMotor)this).a);}
+
+public static void main(String...a1)
+{
+Motor.m.show();
+}
+}
